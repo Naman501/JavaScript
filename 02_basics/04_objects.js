@@ -48,3 +48,27 @@ console.log(Object.keys(regularUser));
 console.log(Object.values(regularUser));
 console.log(tinderUser.hasOwnProperty('regularUser'));
 
+const course = {
+    name:"js_hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+// course.courseInstructor
+const {courseInstructor} = course
+
+console.log(courseInstructor);
+
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "hitesh")
+
+// {
+//     "name" : "Naman",
+//     "coursename" :"jshindi",
+//     "price":"0"
+
+// }
