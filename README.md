@@ -1,2 +1,2 @@
 # JavaScript
-code repo for learning JS
+code repo for learning JavaScript
