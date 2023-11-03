@@ -16,3 +16,7 @@ else{
 }
 
 const score =200
+
+if(7>5){
+    console.log("Deepak Chutiya hai!");
+}
