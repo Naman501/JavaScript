@@ -24,11 +24,59 @@
 <script>
 document.getElementById('owl').onclick = function () {
     alert('ULLU')
-    
-    document.getElementById('photoshop').addEventListener('click',function(){
-        alert('ANIMESH!')
-    },false)
-
 }
+
+    document.getElementById('prayer').addEventListener('click', function(e){
+    console.log(e);
+    }, false)
+
+    document.getElementById('photoshop').onclick = function () {
+    alert('ishita maam')
+    }
+
+    //type , timestamp , defaultPrevented , 
+    // target , toElement , srcElement , currentTarget
+    // clientX , clientY, screenX , screenY
+    // altkey , ctrlkey , shiftkey , keyCode 
+
+
+
+
+//attatchEvent()
+//jQuery - on
+
+
+document.getElementById('images').addEventListener('click',function(e){
+    console.log("clicked inside the UL");
+    e.stopPropagation()
+},false)
+
+document.getElementById('river').addEventListener('click',function(e){
+    console.log(" river clicked ");
+   
+},false)
+
+
+document.getElementById('google').addEventListener('click',function(e){
+    e.preventDefault();
+    // e.stopPropagation();
+     console.log(`choot`);
+   
+},false)
+
+document.querySelector('#images').addEventListener('click',function(e){
+        console.log(e.target.tagName);
+        if(e.target.tagName === 'IMG'){
+            console.log(e.target.id);
+             let removeIt =  e.target.parentNode
+        // removeIt.remove()
+        removeIt.parentNode.removeChild(removeIt)
+        }
+       
+
+})
+
+//capturing(true)  => top to bottom
+//bubbling(false)(default) => bottom to top
 </script>
 </html>
