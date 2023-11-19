@@ -107,4 +107,28 @@ setInterval(function(){
 ## Project 4  =>
 ```javaScript
 
+const number = console.log(Math.floor(Math.random() * 100 + 1));
+
+const submit = document.querySelector('#subt');
+
+const userInput = document.querySelector('#guessField');
+
+const gurssSlot = document.querySelector('.guesses');
+
+const remaining = document.querySelector('.lastResult');
+
+const lowOrHi = document.querySelector('.loworHi')
+
+const startOver = document.querySelector('.resultParas')
+
+const p =document.createElement('p')
+
+let prevGuess = []
+let numGuess =1
+
+let playGame = true
+
+
+function validateGuess(guess)
+
 ```
