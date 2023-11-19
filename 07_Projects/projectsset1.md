@@ -84,3 +84,11 @@ form.addEventListener('submit', function (e) {
 
 
 ```
+
+## Project 3 =>
+
+```javaScript
+
+console.log("TIME")
+
+```
