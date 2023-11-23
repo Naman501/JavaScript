@@ -1,2 +1,1 @@
-const tmr = "maa ki chut"
-console.log(tmr);
+console.log("Getting started with event");
