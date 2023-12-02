@@ -25,8 +25,8 @@ const chai =new createUser("chai",25)
 const tea = new createUser("tea",250)
 chai.printMe()
 tea.printMe()
-tea.increment()
 chai.increment()
+tea.increment()
 
 
 /*
